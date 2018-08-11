@@ -18,3 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.materialboxed');
     var instances = M.Materialbox.init(elems, {});
   });
+
+  $(document).ready(function () {
+    $('input#input_text, textarea#textarea2').characterCounter();
+});
