@@ -7,9 +7,83 @@
     <title>Admin</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    
+        <ul id="slide-out" class="sidenav sidenav-fixed">
+                <li class="center-align">
+                    <h3 class="brand-logo">SkillShop</h3>
+                </li>
+                <li><div class="divider"></div></li>
+                <li><a class="waves-effect" href="#!"><i class="small material-icons">exit_to_app</i>Logout</a></li>
+                </ul>
+                <header>
+                        <nav>
+                                <div class="nav-wrapper">
+                                  <div class="brand-logo right">Список товаров</div>
+                                </div>
+                              </nav>
+                </header>
+    <main>
+        <table class="highlight centered">
+            <thead>
+                <tr>
+                    <th>Изображение</th>
+                    <th>Товар</th>
+                    <th>Колличество</th>
+                    <th>Цена</th>
+                    <th>Редактирование</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td><img src="./img/html.jpeg" alt="" srcset="" style="width: auto; height: 75px;"></td>
+                    <td>HTML</td>
+                    <td>654</td>
+                    <td>$0.87</td>
+                    <td>
+                        <a href="edit.html" style="color: #000;"><i class="Tiny material-icons">
+                            edit
+                            </i></a>
+                            <i class="Tiny material-icons" style="cursor: pointer;" >
+                                    delete_forever
+                                    </i></td>
+                </tr>
+                <tr>
+                    <td><img src="./img/css.png" alt="" srcset="" style="width: auto; height: 75px;"></td>
+                    <td>CSS</td>
+                    <td>854</td>
+                    <td>$3.76</td>
+                    <td>
+                        <a href="edit.html" style="color: #000;"><i class="Tiny material-icons">
+                            edit
+                            </i></a>
+                            <i class="Tiny material-icons" style="cursor: pointer;">
+                                    delete_forever
+                                    </i></td>
+                </tr>
+                <tr>
+                    <td><img src="./img/js.png" alt="" srcset="" style="width: auto; height: 75px;"></td>
+                    <td>JavaScript</td>
+                    <td>888</td>
+                    <td>$7.00</td>
+                    <td>
+                        <a href="edit.html" style="color: #000;"><i class="Tiny material-icons">
+                            edit
+                            </i></a>
+                            <i class="Tiny material-icons" style="cursor: pointer;">
+                                    delete_forever
+                                    </i></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="fixed-action-btn">
+                <a class="btn-floating btn-large red">
+                  <i class="large material-icons">add</i>
+                </a>
+    </main>
+                    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="./js/scripts.js"></script>
