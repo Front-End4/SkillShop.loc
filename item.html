@@ -10,25 +10,101 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col s12 m8">
-                <!-- <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="./img/html.jpeg"></a>
-                    <a class="carousel-item" href="#two!"><img src="./img/css.png"></a>
-                    <a class="carousel-item" href="#three!"><img src="./img/js.png"></a>
-                </div> -->
-                <img class="materialboxed" src="./img/html.jpeg">
-                <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati harum accusantium nobis nisi, aperiam architecto sequi iste incidunt quibusdam vero earum nihil eveniet cupiditate fuga dolorem perferendis exercitationem accusamus iure?</p>
-            </div>
-            <div class="col s12 m4">
-                <h2>Item</h2>
-                <p class="time">10 h 20 m 5s</p>
-                <p class="price">100$</p>
-                <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+    <nav>
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo">Skill Shop</a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="checkout.html">
+                            <i class="material-icons">shopping_cart</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="modal-trigger" href="#modal1">
+                            <i class="material-icons">person</i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </nav>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m8">
+                    <!-- <div class="carousel">
+                        <a class="carousel-item" href="#one!"><img src="./img/html.jpeg"></a>
+                        <a class="carousel-item" href="#two!"><img src="./img/css.png"></a>
+                        <a class="carousel-item" href="#three!"><img src="./img/js.png"></a>
+                    </div> -->
+                    <img class="materialboxed" src="./img/html.jpeg">
+                    <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati harum accusantium nobis nisi, aperiam
+                        architecto sequi iste incidunt quibusdam vero earum nihil eveniet cupiditate fuga dolorem perferendis
+                        exercitationem accusamus iure?</p>
+                </div>
+                <div class="col s12 m4">
+                    <h2>Item</h2>
+                    <p class="time">10 h 20 m 5s</p>
+                    <p class="price">100$</p>
+                    <a class="waves-effect waves-light btn">
+                        <i class="material-icons left">add</i> buy this</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Skill Shop</h5>
+                    <p class="grey-text text-lighten-4">Some kind of content which will stimuleate you to buy our product</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Find us somewhere</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2018 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">Beetroot Academy</a>
+            </div>
+        </div>
+    </footer>
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <div class="form__field-auth">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="text" type="text" class="validate">
+                        <label for="text">Login</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="password" type="password" class="validate">
+                        <label for="password">Password</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <button type="submit" class="waves-effect waves-light btn">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="./js/scripts.js"></script>
 </body>
