@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,41 +10,94 @@
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
-<ul id="slide-out" class="sidenav sidenav-fixed">
-<li class="center-align">
-    <h3 class="brand-logo">SkillShop</h3>
-</li>
-<li><div class="divider"></div></li>
-<li><a class="waves-effect" href="#!"><i class="small material-icons">exit_to_app</i>Logout</a></li>
-</ul>
-<header>
+
+<body class="admin">
+    <ul id="slide-out" class="sidenav sidenav-fixed">
+        <li class="center-align">
+            <h3 class="brand-logo">SkillShop</h3>
+        </li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li>
+            <a class="waves-effect" href="#!">
+                <i class="small material-icons">exit_to_app</i>Logout</a>
+        </li>
+    </ul>
+    <header>
         <nav>
-                <div class="nav-wrapper">
-                  <div class="brand-logo right">Edit item</div>
-                </div>
-              </nav>
-</header>
+            <div class="nav-wrapper">
+                <div class="brand-logo right">Edit item</div>
+            </div>
+        </nav>
+    </header>
     <main>
-<div class="container">
-    <section>
-        321
-    </section>
-</div>
+        <div class="container">
+            <section>
+                <div class="row">
+                    <div class="col s12 m6">
+                        <div class="item-photo">
+                            <img src="./img/itemphoto0.jpg" alt="">
+                        </div>
+                        <form action="#">
+                                <div class="file-field input-field">
+                                  <div class="waves-effect waves-light btn">
+                                    <span>Change image</span>
+                                    <input type="file">
+                                  </div>
+                                  <div class="file-path-wrapper">
+                                    <input class="file-path validate" type="text">
+                                  </div>
+                                </div>
+                              </form>
+                    </div>
+                    <div class="col s12 m6">
+                        <div class="row">
+                            <form class="col s12">
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="first_name" type="text" class="validate">
+                                            <label for="first_name">Product name</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="first_name" type="text" class="validate">
+                                            <label for="first_name">Specification</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="first_name" type="text" class="validate">
+                                            <label for="first_name">Price</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                            <div class="input-field col s12">
+                                              <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
+                                              <label for="textarea2">Description</label>
+                                            </div>
+                                          </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
 
     </main>
     <footer class="page-footer">
-        <div class="container">
-            <div class="footer-copyright">
-                <div class="container">
+        <div class="footer-copyright">
+            <div class="container">
                 © 2018 Copyright Text
                 <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-                </div>
             </div>
         </div>
-        </footer>
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="./js/scripts.js"></script>
 </body>
+
 </html>
