@@ -6,36 +6,85 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Auth</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
-    <div id="modal1" class="modal">
-        <div class="modal-content">
-            <div class="form__field-auth">
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input id="text" type="text" class="validate">
-                        <label for="text">Login</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input id="password" type="password" class="validate">
-                        <label for="password">Password</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s12">
-                        <button type="submit" class="waves-effect waves-light btn">Login</button>
-                    </div>
+<body class="admin">
+    <ul id="slide-out" class="sidenav sidenav-fixed">
+        <li class="center-align">
+            <h3 class="brand-logo">SkillShop</h3>
+        </li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li>
+            <a class="waves-effect" href="#!">
+                <i class="small material-icons">exit_to_app</i>Logout</a>
+        </li>
+    </ul>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="brand-logo right">Login</div>
                 </div>
             </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <div class="container">
+    
+    <div class="form__field-auth">
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="text" type="text" class="validate">
+                <label for="text">Login</label>
+            </div>
         </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="password" type="password" class="validate">
+                <label for="password">Password</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <button type="submit" class="waves-effect waves-light btn">Login</button>
+            </div>
         </div>
     </div>
+
+</div>
+</section>
+</main>
+<!-- footer -->
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Skill Shop</h5>
+                <p class="grey-text text-lighten-4">Some kind of content which will stimuleate you to buy our product</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                    <li>
+                        <a class="grey-text text-lighten-3" href="#!">Find us somewhere</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2018 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">Beetroot Academy</a>
+        </div>
+    </div>
+</footer>
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="./js/scripts.js"></script>
