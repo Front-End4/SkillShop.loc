@@ -3,4 +3,3 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Materialbox.init(elems, {});
     $('textarea#description').characterCounter();
 });
-
